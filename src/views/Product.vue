@@ -143,4 +143,12 @@ div {
 .img {
   width: 805px;
 }
+@media only screen and (max-width: 320px) {
+
+ .title-img{height:150px;}
+.product{width: 320px; background-color: aqua;}
+
+}
+.img{ height: 50px;}
+.body{height: 320px;}
 </style>

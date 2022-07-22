@@ -136,5 +136,20 @@ font-weight: bold;
   width: 100%;
   height: 80px;
 } */
+@media only screen and (max-width: 320px) {
+  .menu{width: 320px;}
+  .menuu {
+    font-size: 12px
+  }
+}
+@media only screen and (min-width: 375px) {
+  .menu{width: 405px}
+  .menuu {
+    font-size: 14px
+  }
+}
+@media only screen and (max-width: 425px){
+    .inform{display:none}
+  .logo{display:none}}
 
 </style>

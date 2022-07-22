@@ -59,6 +59,12 @@
   };
 </script>
 <style scoped>
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+  .product-list-item{ height: 50px;width: 150px;}
+}
 .delete{
   display: flex;
 font-size: 160%;
@@ -145,5 +151,13 @@ border-right: 1px solid #e5e5e5;
     font-weight: 600;
     margin-bottom: 5px;
 }
+@media only screen and (max-width: 320px){
+.product-list-item{width:320px ;}
+}
+
+.product-about{width:310px;}
+.product-image{width: 268px;}
+.delete{text-align: center;font-size: 30px;}
+
 </style>
    

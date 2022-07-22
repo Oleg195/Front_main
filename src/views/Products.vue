@@ -216,7 +216,7 @@ svg {
   background-color: #f6f6f6;
   justify-content: space-around;
   background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPRT6gS0SZyqAIJnBAmcLXJ_Et10HNUGxoxg&usqp=CAU);
-background-position-y:bottom;background-repeat-y:no-repeat;
+background-position-y:bottom;background-repeat:no-repeat;
 animation: gorod 5s infinite linear;}    
 @keyframes gorod{0%{background-position-x:7%}100%{background-position-x:96% ;};
 
@@ -322,4 +322,23 @@ input:hover {
   flex: auto;
   max-width: 100%
 }
+
+@media only screen and (max-width: 320px) {
+ .products{ width:320px;background-color: aqua;
+}
+.shapka{width: 360px;background-color: aqua}
+}
+@media only screen and (max-width: 375px) {
+ .products{ width:405px;background-color: aqua;
+}
+.shapka{width: 405px;background-color: aqua}
+}
+@media only screen and (max-width: 425px){
+  .products{ width:410px;background-color: aqua; }
+}
+@media only screen and (max-width: 768px){};
+@media only screen and (max-width: 1024px){
+
+};
+@media only screen and (max-width: 2560px){} 
 </style>
